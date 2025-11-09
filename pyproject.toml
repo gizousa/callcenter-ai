@@ -50,7 +50,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-  "deepeval~=0.21",            # LLM model evaluation
+  "deepeval~=3.7",            # LLM model evaluation
   "deptry~=0.20",              # Dependency tree testing
   "granian[reload]",           # Granian with reload support for development
   "pyright~=1.1",              # Static type checker
