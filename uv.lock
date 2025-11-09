@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.13"
 
 [[package]]
@@ -180,15 +180,16 @@ wheels = [
 
 [[package]]
 name = "azure-appconfiguration"
-version = "1.7.1"
+version = "1.7.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "azure-core" },
     { name = "isodate" },
+    { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/2c/ff/cd3804d1aa1789f393a3174ca2b701edf7f0092c615ab384fd065afd4433/azure-appconfiguration-1.7.1.tar.gz", hash = "sha256:3ebe41e9be3f4ae6ca61e5dbc42c4b7cc007a01054a8506501a26dfc199fd3ec", size = 113698, upload-time = "2024-08-23T02:50:37.192Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d3/9f/f2a9ab639df9f9db2112ded1c6286d1a685f6dadc8b56fc1f1d5faed8c57/azure_appconfiguration-1.7.2.tar.gz", hash = "sha256:cefd75b298b898a8ed9f73048f3f39f4e81059a58cd832d0523787fc1d912a06", size = 120992, upload-time = "2025-10-20T20:26:30.072Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/fa/6f/e4d2645a70a2e19c23e47350737e7f6d44bc883666c9099c79fb775a4e10/azure_appconfiguration-1.7.1-py3-none-any.whl", hash = "sha256:6e62b040a0210071be4423aafbdca3b053884c0d412855e3f8eff8e8d0b1a02b", size = 90971, upload-time = "2024-08-23T02:50:39.495Z" },
+    { url = "https://files.pythonhosted.org/packages/c4/59/c21dfb3ee35fe723c7662b3e468b20532947e73e11248971c45b7554590b/azure_appconfiguration-1.7.2-py3-none-any.whl", hash = "sha256:8cb62acd32efa84ae1e1ce30118ab4b412b3652f3ab6e86f811ec2e48388d083", size = 100202, upload-time = "2025-10-20T20:26:31.261Z" },
 ]
 
 [[package]]
