@@ -254,7 +254,7 @@ jobs:
 
       - name: Create release
         id: create-release
-        uses: actions/github-script@v7.0.1
+        uses: actions/github-script@v8.0.0
         with:
           script: |
             const isMain = context.ref == `refs/heads/main`;
@@ -287,7 +287,7 @@ jobs:
     steps:
       - name: publish release
         id: publish-release
-        uses: actions/github-script@v7.0.1
+        uses: actions/github-script@v8.0.0
         with:
           script: |
             github.rest.repos.updateRelease({
